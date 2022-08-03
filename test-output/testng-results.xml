@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-03T12:50:04 IST" name="Suite" finished-at="2022-08-03T12:50:11 IST" duration-ms="6986">
+    <groups>
+    </groups>
+    <test started-at="2022-08-03T12:50:04 IST" name="Test" finished-at="2022-08-03T12:50:11 IST" duration-ms="6986">
+      <class name="com.restapitests.PostTest">
+        <test-method signature="postTest()[pri:0, instance:com.restapitests.PostTest@290222c1]" started-at="2022-08-03T12:50:08 IST" name="postTest" finished-at="2022-08-03T12:50:10 IST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.restapitests.PostTest -->
+      <class name="com.restapitests.PutTest">
+        <test-method signature="putTest()[pri:0, instance:com.restapitests.PutTest@67f639d3]" started-at="2022-08-03T12:50:10 IST" name="putTest" finished-at="2022-08-03T12:50:11 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTest -->
+      </class> <!-- com.restapitests.PutTest -->
+      <class name="com.restapitests.GetTest">
+        <test-method signature="getTest()[pri:0, instance:com.restapitests.GetTest@ffaa6af]" started-at="2022-08-03T12:50:04 IST" name="getTest" finished-at="2022-08-03T12:50:08 IST" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+      </class> <!-- com.restapitests.GetTest -->
+      <class name="com.restapitests.DeleteTest">
+        <test-method signature="deleteTest()[pri:0, instance:com.restapitests.DeleteTest@6253c26]" started-at="2022-08-03T12:50:11 IST" name="deleteTest" finished-at="2022-08-03T12:50:11 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.restapitests.DeleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
