@@ -17,8 +17,8 @@ public class PutTest {
 		baseURI = "https://reqres.in/api";
 		
 		JSONObject obj = new JSONObject();
-		obj.put("name", "Shanawaz");
-		obj.put("job", "SDET");
+		obj.put("name", "Mansuri");
+		obj.put("job", "SDET Lead");
 		
 		given().header("Content-Type",ContentType.JSON)
 		.body(obj.toJSONString())
@@ -26,8 +26,8 @@ public class PutTest {
 		.then()
 		.statusCode(200)
 		.log().all()
-		.body("name", equalTo("Shanawaz"))
-		.body("job", equalTo("SDET"));
+		.body("name", equalTo("Mansuri"))
+		.body("job", equalTo("SDET Lead"));
 
 
 	}
